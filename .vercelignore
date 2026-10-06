@@ -1,0 +1,9 @@
+node_modules/
+tests/
+docs/
+.github/
+README.md
+DESIGN.md
+package-lock.json
+test-results/
+playwright-report/
