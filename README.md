@@ -37,6 +37,7 @@ O projeto Vercel `business-intelligence` está associado a este repositório. `v
 - [Arquitetura implementada](docs/ARCHITECTURE.md)
 - [Evidências e limites](docs/VALIDATION.md)
 - [Próximos passos](docs/BACKLOG.md)
+- [Revisão e cards do Trello](docs/TRELLO.md)
 - [Proposta System Design em Word](docs/System-Design.docx)
 
 O Word é a proposta inicial preservada do template; revisão visual completa permanece pendente. Não há autenticação, banco, API de negócio, importação ou dados reais. O dashboard é independente do frontend Loja Gestão do A3. A integração exige fonte, regras financeiras aprovadas e perfis definidos.
