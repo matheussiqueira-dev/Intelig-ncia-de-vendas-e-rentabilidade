@@ -25,6 +25,7 @@ async function exportRows(page) {
     const target = process.env.TEST_URL || pathToFileURL(path.resolve(__dirname, '../index.html')).href;
     await page.goto(target, { waitUntil: 'domcontentloaded' });
     await page.locator('#product-rows tr').first().waitFor();
+    await page.evaluate(() => document.fonts.ready.then(() => true));
     const initial = await page.locator('#revenue').textContent();
     await page.locator('[data-days="7"]').click();
     assert.notEqual(await page.locator('#revenue').textContent(), initial);
